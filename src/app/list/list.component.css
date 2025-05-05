@@ -1,0 +1,35 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 24%;
+}
+thead{
+    border: 1px solid black;
+    background-color:black;
+    color: white; 
+    height: 50px; 
+    font-size: larger;
+}
+tbody{
+    border: 1px solid black;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    background-color: gray;
+}
+th,td{
+    padding: 5px;
+   
+}
+
+#btn2{
+    background-color: red;
+    border-radius: 2px;
+}
+#btn2:hover{
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+<h1>To Do List</h1>
+<br>
+<div id="field">
+<input type="text" [(ngModel)]="list" placeholder="Enter today Tasks...">
+<button id="btn1"(click)="addlist()">+</button>
+</div>
+<br><br>
+<app-list [lists]="lists"></app-list>
+<br>
+<button id="btn3" (click)="deleteall()">Finish</button>
+
+
+

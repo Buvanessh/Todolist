@@ -1,0 +1,17 @@
+
+<table>
+    <thead>
+      <tr>
+        <th>List</th>
+        <th>Completed</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let l of lists ;let i = index">
+        <td>{{l}}</td>
+        <td><input type="checkbox"></td>
+        <td><button id="btn2"(click)="deleteitem(i)">Delete</button></td>
+      </tr>
+    </tbody>
+   </table>
