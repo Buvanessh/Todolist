@@ -10,6 +10,7 @@ export class ListComponent {
   @Input()
   lists: String[]=[]
   
+   
 
   deleteitem(index: number) {
     this.lists.splice(index, 1);

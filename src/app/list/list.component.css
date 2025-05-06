@@ -11,6 +11,7 @@ thead{
     color: white; 
     height: 50px; 
     font-size: larger;
+    border-radius: 5px;
 }
 tbody{
     border: 1px solid black;

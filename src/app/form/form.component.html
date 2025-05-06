@@ -7,7 +7,11 @@
 <br><br>
 <app-list [lists]="lists"></app-list>
 <br>
-<button id="btn3" (click)="deleteall()">Finish</button>
+<button id="btn3" (click)="popup()">Finish</button>
+
+<div id="popup" *ngIf="showPopup">
+    <p>Task Completed</p>
+</div>
 
 
 

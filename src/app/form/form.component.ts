@@ -15,9 +15,11 @@ export class FormComponent {
     this.list="";
   }
 
-  deleteall()
+  showPopup=false;
+  popup()
   {
-    this.lists=[]
+    this.lists=[];
+    this.showPopup=true
   }
 
  
